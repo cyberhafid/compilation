@@ -1,6 +1,18 @@
 import React from 'react';
-import {Navbar} from 'reactstrap';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -20,15 +32,61 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="warning" light expand="md">
-      
-          <NavLink  className='nav-link' to="/"> Home </NavLink> <span class="sr-only">(current)</span>
+          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav color="warning" light expand="md" navbar>
+    <NavItem>
+              <NavLink  className='nav-link' to="/"> Home </NavLink> 
+              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Quete React
+                </DropdownToggle>
+                <DropdownMenu >
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/Quete"> Quete </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react3"> React 3 </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react31"> Simpsons Quote </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react32"> Class ou fonction </NavLink>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
 
-          <NavLink className='nav-link' to="/Quete"> Quete </NavLink>
-       
-          <NavLink className='nav-link' to="/contact"> Contact </NavLink>
+              <NavItem>
+        <NavLink className='nav-link' to="/contact"> Contact </NavLink>
+              </NavItem>
 
-  
+
+            </Nav>
+          </Collapse>
         </Navbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     );
   }
