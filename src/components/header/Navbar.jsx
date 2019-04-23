@@ -71,16 +71,27 @@ export default class Example extends React.Component {
 
               <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
+                 reseaux axios
+                </DropdownToggle>
+                <DropdownMenu >
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/reseau"> question axios </NavLink>
+                  </DropdownItem>
+               </DropdownMenu>
+              </UncontrolledDropdown>
+
+
+              <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
                  Outils divers
                 </DropdownToggle>
                 <DropdownMenu >
                   <DropdownItem>
                   <NavLink className='nav-link' to="/divers"> Sky gif </NavLink>
                   </DropdownItem>
-             
-               
-                </DropdownMenu>
+               </DropdownMenu>
               </UncontrolledDropdown>
+
 
 
               <NavItem>

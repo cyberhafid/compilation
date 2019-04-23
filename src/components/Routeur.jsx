@@ -26,6 +26,7 @@ export default class Routeur extends Component {
           <Route path="/react33/" component={react33} />
           <Route path="/react34/" component={react34} />
           <Route path="/divers/" component={divers} />
+          <Route path="/reseau/" component={reseau} />
           
         </Switch>
         
