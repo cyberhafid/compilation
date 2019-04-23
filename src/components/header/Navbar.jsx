@@ -56,12 +56,32 @@ export default class Example extends React.Component {
                   <DropdownItem>
                   <NavLink className='nav-link' to="/react32"> Class ou fonction </NavLink>
                   </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react33"> Voyage </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react34"> props </NavLink>
+                  </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+
+              <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                 Outils divers
+                </DropdownToggle>
+                <DropdownMenu >
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/divers"> Sky gif </NavLink>
+                  </DropdownItem>
+             
+               
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
 
               <NavItem>
         <NavLink className='nav-link' to="/contact"> Contact </NavLink>
