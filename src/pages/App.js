@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Route exact path='/' component={Questions}/>
-        <Route exact path='/:questionId' component={Question}/>
+        <Route exact path='/reseau/' component={Questions}/>
+        <Route exact path='/reseau/:questionId' component={Question}/>
       </div>
     );
   }
