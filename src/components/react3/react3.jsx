@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import './react3.css';
 
-
-//import Quotes from './Quotes';
 import Lamp from '../react3/Lamp';
 import Working from '../react3/Working';
 

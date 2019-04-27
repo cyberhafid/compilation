@@ -1,6 +1,6 @@
 /* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
 /* The gradient part */
-html {
+body {
     background:
         radial-gradient(300px circle at 73% 60%, rgba(69,28,84,.8),rgba(69,28,84,0)),
         radial-gradient(280px circle at 52% 70%, rgba(220,123,67,.95),rgba(220,123,67,0)),
@@ -15,15 +15,17 @@ html {
         radial-gradient(300px circle at right bottom, rgba(169,82,160, 1),  rgba(169,82,160, 0)),
         linear-gradient(to right bottom, rgba(71,17,77, 0), rgba(71,17,77, 0.95) 40%, rgba(71,17,77, 0.5) 60%, rgba(71,17,77, 0)),
         linear-gradient(to right, #1c062d, #b8205d);
+
+        min-height: 100vh;
+        font-family: "Segoe UI", "Segoe WP", "Open Sans", Helvetica, Arial;
+        font-size: 16px;
+        line-height: 1.6;
+
+
+
 }
 
-body {
-min-height: 100vh;
-font-family: "Segoe UI", "Segoe WP", "Open Sans", Helvetica, Arial;
-font-size: 16px;
-line-height: 1.6;
-background: transparent;
-}
+
 
 .main {
 width: 1110px;
@@ -92,7 +94,7 @@ font-weight: 700;
 }
 nav a:hover, nav a:focus {
 background: #989987;
-color: #FFF;
+color: rgb(119, 15, 15);
 }
 
 
@@ -113,6 +115,7 @@ padding: 1px;
 color: white;
 border-radius: 5px;
 box-shadow: 2px 2px 10px #1C1A19;
+
 }
 .perfofilspolice
 {

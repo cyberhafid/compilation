@@ -18,10 +18,10 @@ class react33 extends Component {
       <div className="App">
        
 
-       <header className="App-header">
+       
           
           <h1 className="App-title">Tu as gagné au millionaire?</h1>
-        </header>
+       
        
 
 
