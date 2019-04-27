@@ -1,35 +1,18 @@
 import React, { Component } from 'react';
-import './react3.css';
+import './React3.css';
 
-import Lamp from '../react3/Lamp';
-import Working from '../react3/Working';
+import Lamp from './Lamp';
+import Working from './Working';
 
 class react3 extends Component {
   render() {
     return (
       <div className="App">
- 
-
-
-         <Working /> 
-
+        <Working />
         <Lamp />
-
-     
-
-      
-
-
-
-
-
-
       </div>
     );
   }
 }
-
-
 export default react3;
 
- 

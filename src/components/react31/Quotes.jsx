@@ -37,12 +37,3 @@ const Quotes = () => (
 );
 
 export default Quotes;
-/* const Spreads = () => (
-  <div>
-    {quotes.map(quote => (
-  <Quote quote={quote.quote} image={quote.image} character={quote.character} />
-
-))}
-</div>
-);
-*/

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-//import Workings from './Workings';
-
 
 const users = [
   {
@@ -38,7 +36,7 @@ class Working extends Component {
       open: false,
       openlogo: false,
       users
-    
+
 
     };
 
@@ -52,36 +50,21 @@ class Working extends Component {
   render() {
     const divClass = this.state.open ? 'open' : 'close'
     const divHeader = this.state.openlogo ? 'App-logo App-scale' : 'App-logo'
-
-
-
-
-
     return (
       <div>
 
-
-       
-<header className="App-header">
+        <header className="App-header">
           <img src={logo} className={`${divHeader}`} alt="logo" />
           <h1 className="App-title">Tu as gagné au millionaire?</h1>
         </header>
 
-
-
-
-
-
         {this.state.users.map((person, index) => (
-
-
-
           <div className={`container ${divClass}`}>
             <figure >
-            <button
-          onClick={this.toggleOpenState}
-        >DODO OU PAS DODO????????????????????????</button>
-              <img src={person.image} alt={person.character} style={{ height: 300}} />
+              <button
+                onClick={this.toggleOpenState}
+              >DODO OU PAS DODO??????</button>
+              <img src={person.image} alt={person.character} style={{ height: 300 }} />
               <figcaption>
                 <blockquote>personnage :{person.character}</blockquote>
                 <cite>quote : {person.quote} </cite>

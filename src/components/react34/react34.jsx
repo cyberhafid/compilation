@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-import './App.css';
 import { Container, Row, Col, Spinner } from 'reactstrap';
 import Content from './Content';
 import Card from './Card';
