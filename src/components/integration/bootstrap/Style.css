@@ -1,0 +1,21 @@
+.col-1{
+    padding-top: 8%;
+    border : 1px solid white;
+}
+
+
+ 
+.container .row div.noir
+{
+    background-color:black;
+}
+ 
+.container .row div.orange
+{
+    background-color:orange;
+}
+ 
+.container .row div.jaune
+{
+    background-color:yellow;
+}
