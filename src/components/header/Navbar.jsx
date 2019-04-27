@@ -80,6 +80,20 @@ export default class Example extends React.Component {
                </DropdownMenu>
               </UncontrolledDropdown>
 
+              <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                 Premier Projet
+                </DropdownToggle>
+                <DropdownMenu >
+                <DropdownItem>
+                  <NavLink className='nav-link' to="/html/wildcircus"> Wild Circus </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/html/integration"> integration </NavLink>
+                  </DropdownItem>
+               </DropdownMenu>
+              </UncontrolledDropdown>
+
 
               <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

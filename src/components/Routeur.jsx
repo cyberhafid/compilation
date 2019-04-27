@@ -10,6 +10,8 @@ import react33 from '../components/react33/react33';
 import react34 from '../components/react34/react34';
 import divers from '../components/divers/divers';
 import App from '../components/reseau/App';
+import Html from './html/integration/integration';
+import Entree from './html/wildcircus/entree';
 
 export default class Routeur extends Component {
 
@@ -28,6 +30,8 @@ export default class Routeur extends Component {
           <Route path="/react34/" component={react34} />
           <Route path="/divers/" component={divers} />
           <Route path="/reseau/" component={App} />
+          <Route path="/html/integration/" component={Html} />
+          <Route path="/html/wildcircus/" component={Entree} />
           
         </Switch>
         

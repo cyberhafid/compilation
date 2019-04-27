@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(53, 65, 80);
+     width: 80%;
+     margin-left: auto;
+  margin-right: auto;
+}
+.panel {
+    margin-bottom: 1.5rem;
+}
+        .image {
+     
+            z-index: 1;
+        }
+
+        .image .vitre {
+            opacity: 0.7;
+        }
+
+        .image:hover .vitre {
+            opacity: 1;
+        }
+
+        .image span {
+            visibility: hidden;
+        }
+
+        .image img:hover+span {
+            visibility: visible;
+            color: rgb(255, 253, 253);
+            position: absolute;
+            top: 60%;
+            width: 100%;
+            height: 400px;
+            z-index: 2;
+            font-size: 180%;
+            text-align: center;
+        }
+
+        .image p {
+            visibility: visible;
+            color: rgb(255, 253, 253);
+            position: absolute;
+            font-size: 5 vw;
+        }
+
+        .image img:hover+p {
+            visibility: hidden;
+        }
+
+        .texte {
+            color: rgb(255, 253, 253);
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            z-index: 2;
+          
+            text-align: center;
+        }
+        h1 {
+            font-size: 15w;
+         }
+
+
+        .image:hover .texte {
+            display: none;
+        }
+
+
+        .arrondi {
+            position: absolute;
+            top: 5%;
+            width: 80%;
+            height: 25%;
+            vertical-align: middle;
+            text-align: center;
+            background: #eeeeee;
+            border: 1px solid #a39e9e80;
+            -webkit-border-radius: 10px;
+            z-index: 4;
+            font-size: 2 vw;
+            opacity: 0.7;
+        }
+
+        .image:hover .arrondi {
+            display: none;
+        }
+
