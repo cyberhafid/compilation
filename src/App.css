@@ -1,7 +1,26 @@
+body{
+
+
+  color : black;
+}
+
+
+
+
+
 .App {
   text-align: center;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
+  color : black;
 
+}
+h2 {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color : black;
+
+}

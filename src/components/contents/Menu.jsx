@@ -8,7 +8,7 @@ export default class Menu extends React.Component {
     return (
       <div>
      
-        <p>Be sure to <strong>not use the standard <code>.btn</code> classes here</strong>.</p>
+        <p>Be sure to <strong> use the standard <code>.btn</code> classes here</strong>.</p>
         <ListGroup>
           <ListGroupItem active tag="a" href="#" action>Import HTML via magic.reactjs.net</ListGroupItem>
           <ListGroupItem tag="button" > <NavLink  to="/integration/wildcircus"> Wild Circus </NavLink></ListGroupItem>

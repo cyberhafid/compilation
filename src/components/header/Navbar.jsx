@@ -70,6 +70,15 @@ export default class Example extends React.Component {
                   ReactJs
                 </DropdownToggle>
                 <DropdownMenu >
+
+                <DropdownItem>
+                  <NavLink className='nav-link' to="/react/react5">Consommer une Api </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/react/react4">Composant Controlé</NavLink>
+                  </DropdownItem>
+
+
                           <DropdownItem>
                   <NavLink className='nav-link' to="/react/react3"> Simpsons StateOpen</NavLink>
                   </DropdownItem>
