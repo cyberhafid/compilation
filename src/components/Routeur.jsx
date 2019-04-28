@@ -17,6 +17,7 @@ import Gandalf from './integration/css/Gandalf';
 import Demande from './reseau/api/demande';
 import Foot from './reseau/api/foot';
 import react4 from './react/react4/react4';
+import React7 from './react/react7/react7';
 
 
 export default class Routeur extends Component {
@@ -36,6 +37,7 @@ export default class Routeur extends Component {
           <Route path="/react/react34/" component={react34} />
           <Route path="/react/react5/" component={react5} />
           <Route path="/react/react4/" component={react4} />
+          <Route path="/react/react7/" component={React7} />
 
           <Route path="/divers/" component={divers} />
           <Route path="/reseau/question/" component={App} />

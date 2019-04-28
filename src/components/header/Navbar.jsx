@@ -71,6 +71,8 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu >
 
+
+
                 <DropdownItem>
                   <NavLink className='nav-link' to="/react/react5">Consommer une Api </NavLink>
                   </DropdownItem>
@@ -120,6 +122,9 @@ export default class Example extends React.Component {
                  Reseau
                 </DropdownToggle>
                 <DropdownMenu >
+                <DropdownItem>
+                  <NavLink className='nav-link' to="/react/react7">React Router </NavLink>
+                  </DropdownItem>
                 <DropdownItem>
                   <NavLink className='nav-link' to="/reseau/api/demande">Api github info </NavLink>
                   </DropdownItem>

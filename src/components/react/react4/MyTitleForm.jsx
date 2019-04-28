@@ -13,7 +13,7 @@ class MyTitleForm extends Component {
   }
   render() {
     return (
-      <div className='App'>
+      <div >
       <form>
         <label>
           Name:
@@ -24,7 +24,7 @@ class MyTitleForm extends Component {
           />
         </label>
         <input type="submit" value="Submit" />
-        <h2> {this.state.value} </h2>
+        <h2 className="App"> {this.state.value} </h2>
       </form>
       </div>
     );
