@@ -6,9 +6,10 @@ function App() {
   return (
    
     <div className="App">
-    <Navbar />
+  
      
     <React.Fragment>
+    <Navbar />
    
          <Routeur />
        </React.Fragment>

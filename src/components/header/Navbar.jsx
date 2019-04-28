@@ -31,19 +31,19 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='nav-link'>
         <Navbar color="warning" light expand="md">
-          <NavbarBrand href="/">WCS Synthèse</NavbarBrand>
+          <NavbarBrand className='nav-link' href="/">WCS Synthèse</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav color="warning" light expand="md" navbar>
+            <Nav navbar>
     <NavItem>
-              <NavLink  className='nav-link' to="/"> Home </NavLink> 
+              <NavLink className='nav-link' to="/"> Home </NavLink> 
               </NavItem>
 
 
               <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle className='nav-link' nav caret>
 
              
               Integration
@@ -90,14 +90,39 @@ export default class Example extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
 
+
               <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                 reseaux axios
+                 Javascript
                 </DropdownToggle>
                 <DropdownMenu >
                   <DropdownItem>
-                  <NavLink className='nav-link' to="/reseau"> question axios </NavLink>
+                  <NavLink className='nav-link' to="/javascript/patate"> Patate Console </NavLink>
                   </DropdownItem>
+               </DropdownMenu>
+              </UncontrolledDropdown>
+
+
+
+
+
+              <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                 Reseau
+                </DropdownToggle>
+                <DropdownMenu >
+                <DropdownItem>
+                  <NavLink className='nav-link' to="/reseau/api/demande">Api github info </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/reseau/api/foot"> Api Foot </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <NavLink className='nav-link' to="/reseau/question/20"> question axios </NavLink>
+                  </DropdownItem>
+
+
+
                </DropdownMenu>
               </UncontrolledDropdown>
 

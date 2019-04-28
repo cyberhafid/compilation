@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = ({ destination, country, photo, distance}) => (
   <figure>
-    <img src={photo} alt={country} width="60%"   />
+    <img src={photo} alt={country} width="40%"   />
     <figcaption>
       <blockquote>Destination :{destination}</blockquote>
       <cite>Distance : {distance} </cite>

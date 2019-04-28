@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import List from '../components/contents/Liste';
 import Menu from '../components/contents/Menu';
+import Code from '../components/contents/Code';
 
 
 export default class Home extends Component {
@@ -19,6 +20,7 @@ export default class Home extends Component {
             
              <Col xs="8" sm="8">
                 <List />  
+                <Code />  
                 </Col>
          
           </Row>

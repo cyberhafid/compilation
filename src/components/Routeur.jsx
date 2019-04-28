@@ -13,6 +13,9 @@ import Html from './integration/Findtheprecious/integration';
 import Entree from './integration/wildcircus/entree';
 import Oeil from './integration/bootstrap/Oeil';
 import Gandalf from './integration/css/Gandalf';
+import Demande from './reseau/api/demande';
+import Foot from './reseau/api/foot';
+
 
 export default class Routeur extends Component {
 
@@ -35,6 +38,9 @@ export default class Routeur extends Component {
           <Route path="/integration/wildcircus/" component={Entree} />
           <Route path="/integration/bootstrap/" component={Oeil} />
           <Route path="/integration/css/" component={Gandalf} />
+          <Route path="/reseau/api/demande/" component={Demande} />
+          <Route path="/reseau/api/foot/" component={Foot} />
+         
           
         </Switch>
         

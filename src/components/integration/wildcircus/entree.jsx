@@ -99,7 +99,7 @@ import './Type.css';
                 <div className="block">
                   <fieldset>
                     <legend>send a message to Customer Service</legend>
-                    <form action method="post">
+                   
                       <div>
                         <label htmlFor="name">First name :</label>
                         <input type="text" id="name" name="user_name" />
@@ -113,7 +113,7 @@ import './Type.css';
                         <textarea id="msg" rows={5} cols name="user_message" defaultValue={""} />
                       </div>
                       <div> <input type="submit" defaultValue="Send Message" /> </div>
-                    </form>
+                  
                   </fieldset>
                 </div>
               </div>
