@@ -12,6 +12,7 @@ import {
   DropdownItem
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 
 export default class Example extends React.Component {
@@ -43,6 +44,8 @@ export default class Example extends React.Component {
 
               <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
+
+             
               Integration
                 </DropdownToggle>
                 <DropdownMenu >

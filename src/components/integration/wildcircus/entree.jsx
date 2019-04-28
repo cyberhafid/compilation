@@ -4,11 +4,12 @@ import './Type.css';
     export default class Entree extends Component {
     render () {
       return (
-        <div>
+          <div className="main">
+         
           {/* Afin de valider ton code HTML, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */}
           <meta charSet="UTF-8" />
           <title>Wild Circus</title>
-          <link rel="stylesheet" href="styles/Type.css" />
+         
           <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />   
           <div className="main">
             <h1>Wild Circus</h1>

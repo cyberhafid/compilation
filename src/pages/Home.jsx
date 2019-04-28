@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-
+import List from '../components/contents/Liste';
+import Menu from '../components/contents/Menu';
 
 
 export default class Home extends Component {
@@ -9,15 +10,21 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <div className="container-fluid backg">
-       
-        <Container>
+    
+  
           <Row>
-            <h2>Contenu</h2>
+            <Col xs="4" sm="4">
+              <Menu />
+               </Col>
+            
+             <Col xs="8" sm="8">
+                <List />  
+                </Col>
+         
           </Row>
-        </Container>
+
        
-      </div>
+    
     );
   }
 }

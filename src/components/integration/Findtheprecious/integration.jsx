@@ -9,10 +9,7 @@ export default class Html extends Component {
               <title>Find the precious .com mince ca marche</title>
               <meta charSet="utf-8" />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
-              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-              <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-              <link rel="stylesheet" href="styles.css" type="text/css" />
-              <div className="container">
+                   <div className="container">
                 <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                   {/* Brand/logo */}
                   <a className="navbar-brand" href="#">Logo</a>
